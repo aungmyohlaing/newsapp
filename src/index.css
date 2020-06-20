@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.jumbotron {
+  background: linear-gradient(to right, red , yellow );
+  border-radius: 0px!important;
+}
+
+.searchForm{
+  height: 80px;
+  font-size: 50px;
+}
+
+.searchBtn {
+  height:80px;
+  width:200px;
+}
+
+.remove-btn {
+  margin-left:0px;
+}
+
+.sort-btn{
+  margin-right:30px;
+}
+
+/* .active {
+  background-color: black ;
+  padding: 18px 10px 18px 10px;
+} */
