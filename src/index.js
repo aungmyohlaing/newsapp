@@ -40,12 +40,6 @@ const Root = () => (
   </Router>
 );
 
-const About = () => (
-  <div>
-    <h1>This is about page...</h1>
-  </div>
-);
-
 ReactDOM.render(
   <React.StrictMode>
     <Root />
