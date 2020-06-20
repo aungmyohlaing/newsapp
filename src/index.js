@@ -14,7 +14,7 @@ import {
 import { Nav, Navbar } from "react-bootstrap";
 
 const Root = () => (
-  <Router>
+  <Router basename="/newsapp/">
     <div>
       <Navbar collapseOnSelect bg="light" variant="light" expand="lg" sticky="top">
         <Navbar.Brand as={Link} to="/">

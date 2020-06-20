@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import {
-  DEFAULT_QUERY,
   DEFAULT_PAGE,
   DEFAULT_HPP,
   BASE_PATH,
@@ -11,7 +10,6 @@ import {
 } from "../../constants/index";
 import Table from '../Table';
 import { CustomButton, Loading } from "../Button";
-import Search from '../Search';
 
 
 const withLoading = (Component) => ({ isLoading, ...rest }) =>
